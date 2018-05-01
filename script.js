@@ -29,7 +29,7 @@ $(function() {
     subtitle: {
       text: 'Common animal characters in 35 Disney movies analyzed'
     },
-    
+
     xAxis: [{
       categories: categories,
       reversed: false,
@@ -81,5 +81,9 @@ $(function() {
     }]
   });
 
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+      
   /// ENTER YOUR CODE ABOVE HERE
 });
